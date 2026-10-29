@@ -1,0 +1,38 @@
+message:
+- true
+recv:
+- '1'
+tcpip:
+  ip: 192.168.2.1
+  port: 502
+
+VM_tcpip:
+  ip: 127.0.0.1
+  port: 5555
+
+logoimg:
+- logo_image\ccd.png
+
+
+
+models:
+- D:\wg\AI_project\43.sqh(shuyedai)\v8\ultralytics-main\run\train4\weights\best.pt
+model_conf:
+- 0.5
+imgsz:
+- 1920
+
+
+cam:
+- 00J48905738
+counter_number:
+- 400
+password:
+- xdl123
+conf-password:
+- '123456'
+- admin
+conf_args_path:
+- file/conf_args
+W&H_args_path:
+- file/W&H_args
